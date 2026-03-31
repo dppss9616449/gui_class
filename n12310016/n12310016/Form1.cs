@@ -25,7 +25,18 @@ namespace n12310016
             else if (btn_ClickMe.Text == "我已經被點擊過了")
                 btn_ClickMe.Text = "按我一下";
 
-        }  
+        }
 
+        private void bnt_ChangeLabel_Click(object sender, EventArgs e)
+        {
+            lab_CangeLabell.Text="按鈕被按過了";
+        }
+
+        private void bnt_Counter_Click(object sender, EventArgs e)
+        {
+            String count = lab_Counter.Text;
+            int sum = Int32.Parse(count)+1;
+            lab_Counter.Text = sum.ToString();
+        }
     }
 }
