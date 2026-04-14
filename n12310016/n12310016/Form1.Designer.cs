@@ -33,6 +33,10 @@
             this.bnt_ChangeLabel = new System.Windows.Forms.Button();
             this.lab_Counter = new System.Windows.Forms.Label();
             this.bnt_Counter = new System.Windows.Forms.Button();
+            this.btnBigger = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_ClickMe
@@ -85,11 +89,51 @@
             this.bnt_Counter.UseVisualStyleBackColor = true;
             this.bnt_Counter.Click += new System.EventHandler(this.bnt_Counter_Click);
             // 
+            // btnBigger
+            // 
+            this.btnBigger.Location = new System.Drawing.Point(429, 131);
+            this.btnBigger.Name = "btnBigger";
+            this.btnBigger.Size = new System.Drawing.Size(75, 23);
+            this.btnBigger.TabIndex = 5;
+            this.btnBigger.Text = "按鈕放大";
+            this.btnBigger.UseVisualStyleBackColor = true;
+            this.btnBigger.Click += new System.EventHandler(this.btnBigger_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(624, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 12);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label1";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(601, 160);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "按我至至串列";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(586, 118);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnBigger);
             this.Controls.Add(this.lab_Counter);
             this.Controls.Add(this.bnt_Counter);
             this.Controls.Add(this.lab_CangeLabell);
@@ -109,6 +153,10 @@
         private System.Windows.Forms.Button bnt_ChangeLabel;
         private System.Windows.Forms.Label lab_Counter;
         private System.Windows.Forms.Button bnt_Counter;
+        private System.Windows.Forms.Button btnBigger;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
