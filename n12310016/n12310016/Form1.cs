@@ -37,7 +37,7 @@ namespace n12310016
             String count = lab_Counter.Text;
             int sum = Int32.Parse(count)+1;
             lab_Counter.Text = sum.ToString();
-            
+
 
         }
 
@@ -48,9 +48,17 @@ namespace n12310016
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string str =textBox1.Text;
+            string str = textBox1.Text;
             label2.Text = str;
 
         }
+
+        private void BtnCalculator_Click(object sender, EventArgs e)
+        {
+            new FormCalculator().Show();
+        }
+
+
+
     }
 }
