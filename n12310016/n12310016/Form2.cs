@@ -10,29 +10,30 @@ using System.Windows.Forms;
 
 namespace n12310016
 {
-    public partial class FormCalculator : Form
+    public partial class Form2 : Form
     {
-        public FormCalculator()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void FormCalculator_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a =int.Parse(textBox1.Text);
-            int b =int.Parse(textBox2.Text);
-            int sum = a+b;
-            label3.Text = sum.ToString();
+            int c = Int32.Parse(textBox1.Text);
+            int f = c *(9/ 5) +32;
+            label2.Text = f.ToString() + "度F";
+            
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-
+            new Form2().Show();
         }
     }
 }
+ 

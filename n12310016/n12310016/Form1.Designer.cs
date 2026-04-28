@@ -39,11 +39,16 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.BtnCalculator = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ClickMe
             // 
-            this.btn_ClickMe.Location = new System.Drawing.Point(116, 103);
+            this.btn_ClickMe.Location = new System.Drawing.Point(93, 35);
             this.btn_ClickMe.Name = "btn_ClickMe";
             this.btn_ClickMe.Size = new System.Drawing.Size(99, 68);
             this.btn_ClickMe.TabIndex = 0;
@@ -55,7 +60,7 @@
             // 
             this.lab_CangeLabell.AutoSize = true;
             this.lab_CangeLabell.Font = new System.Drawing.Font("新細明體", 25F);
-            this.lab_CangeLabell.Location = new System.Drawing.Point(210, 209);
+            this.lab_CangeLabell.Location = new System.Drawing.Point(210, 142);
             this.lab_CangeLabell.Name = "lab_CangeLabell";
             this.lab_CangeLabell.Size = new System.Drawing.Size(93, 34);
             this.lab_CangeLabell.TabIndex = 2;
@@ -63,7 +68,7 @@
             // 
             // bnt_ChangeLabel
             // 
-            this.bnt_ChangeLabel.Location = new System.Drawing.Point(93, 209);
+            this.bnt_ChangeLabel.Location = new System.Drawing.Point(93, 142);
             this.bnt_ChangeLabel.Name = "bnt_ChangeLabel";
             this.bnt_ChangeLabel.Size = new System.Drawing.Size(75, 23);
             this.bnt_ChangeLabel.TabIndex = 1;
@@ -75,7 +80,7 @@
             // 
             this.lab_Counter.AutoSize = true;
             this.lab_Counter.Font = new System.Drawing.Font("新細明體", 25F);
-            this.lab_Counter.Location = new System.Drawing.Point(210, 281);
+            this.lab_Counter.Location = new System.Drawing.Point(210, 204);
             this.lab_Counter.Name = "lab_Counter";
             this.lab_Counter.Size = new System.Drawing.Size(31, 34);
             this.lab_Counter.TabIndex = 4;
@@ -83,7 +88,7 @@
             // 
             // bnt_Counter
             // 
-            this.bnt_Counter.Location = new System.Drawing.Point(93, 267);
+            this.bnt_Counter.Location = new System.Drawing.Point(93, 201);
             this.bnt_Counter.Name = "bnt_Counter";
             this.bnt_Counter.Size = new System.Drawing.Size(75, 37);
             this.bnt_Counter.TabIndex = 3;
@@ -93,7 +98,7 @@
             // 
             // btnBigger
             // 
-            this.btnBigger.Location = new System.Drawing.Point(429, 131);
+            this.btnBigger.Location = new System.Drawing.Point(413, 58);
             this.btnBigger.Name = "btnBigger";
             this.btnBigger.Size = new System.Drawing.Size(75, 23);
             this.btnBigger.TabIndex = 5;
@@ -129,7 +134,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(290, 281);
+            this.button2.Location = new System.Drawing.Point(312, 160);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
@@ -138,7 +143,7 @@
             // 
             // BtnCalculator
             // 
-            this.BtnCalculator.Location = new System.Drawing.Point(428, 267);
+            this.BtnCalculator.Location = new System.Drawing.Point(263, 30);
             this.BtnCalculator.Name = "BtnCalculator";
             this.BtnCalculator.Size = new System.Drawing.Size(124, 73);
             this.BtnCalculator.TabIndex = 10;
@@ -146,11 +151,59 @@
             this.BtnCalculator.UseVisualStyleBackColor = true;
             this.BtnCalculator.Click += new System.EventHandler(this.BtnCalculator_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(245, 300);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(149, 12);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "請輸入華氏後按下轉換按鈕";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(195, 300);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "華氏";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(91, 300);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 12);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "攝氏";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(426, 297);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 12;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(551, 266);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 63);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "轉換";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.BtnCalculator);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -182,6 +235,11 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button BtnCalculator;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
