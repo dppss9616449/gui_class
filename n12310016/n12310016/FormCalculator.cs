@@ -23,16 +23,25 @@ namespace n12310016
         }
 
         private void button1_Click(object sender, EventArgs e)
+
+
         {
-            int a =int.Parse(textBox1.Text);
-            int b =int.Parse(textBox2.Text);
-            int sum = a+b;
-            label3.Text = sum.ToString();
+            try
+            {
+                int a = int.Parse(textBox1.Text);
+                int b = int.Parse(textBox2.Text);
+                int sum = a+b;
+                label3.Text = sum.ToString();
+            }
+            catch (System.FormatException ex)
+            {
+
+                MessageBox.Show(ex.Message+"輸入的不可以是標點符號,請輸入整數");
+                {
+
+                }
+            }
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
