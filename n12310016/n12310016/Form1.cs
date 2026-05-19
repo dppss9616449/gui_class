@@ -58,7 +58,10 @@ namespace n12310016
             new FormCalculator().Show();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new FormTimer().Show();
 
-
+        }
     }
 }
