@@ -63,5 +63,15 @@ namespace n12310016
             new FormTimer().Show();
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            new FormCheckBox().Show();  
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new FormLayout().Show();
+        }
     }
 }

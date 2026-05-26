@@ -12,3 +12,5 @@ C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.FormBtn
 C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.FormCalculator.resources
 C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.Form2.resources
 C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.FormTimer.resources
+C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.FormCheckBox.resources
+C:\Users\MEGAS\Desktop\gui_class\n12310016\n12310016\obj\Debug\n12310016.FormLayout.resources

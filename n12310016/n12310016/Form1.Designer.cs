@@ -47,11 +47,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_ClickMe
             // 
-            this.btn_ClickMe.Location = new System.Drawing.Point(93, 35);
+            this.btn_ClickMe.Location = new System.Drawing.Point(12, 3);
             this.btn_ClickMe.Name = "btn_ClickMe";
             this.btn_ClickMe.Size = new System.Drawing.Size(99, 68);
             this.btn_ClickMe.TabIndex = 0;
@@ -63,7 +65,7 @@
             // 
             this.lab_CangeLabell.AutoSize = true;
             this.lab_CangeLabell.Font = new System.Drawing.Font("新細明體", 25F);
-            this.lab_CangeLabell.Location = new System.Drawing.Point(210, 142);
+            this.lab_CangeLabell.Location = new System.Drawing.Point(148, 86);
             this.lab_CangeLabell.Name = "lab_CangeLabell";
             this.lab_CangeLabell.Size = new System.Drawing.Size(93, 34);
             this.lab_CangeLabell.TabIndex = 2;
@@ -71,7 +73,7 @@
             // 
             // bnt_ChangeLabel
             // 
-            this.bnt_ChangeLabel.Location = new System.Drawing.Point(93, 142);
+            this.bnt_ChangeLabel.Location = new System.Drawing.Point(21, 86);
             this.bnt_ChangeLabel.Name = "bnt_ChangeLabel";
             this.bnt_ChangeLabel.Size = new System.Drawing.Size(75, 23);
             this.bnt_ChangeLabel.TabIndex = 1;
@@ -83,7 +85,7 @@
             // 
             this.lab_Counter.AutoSize = true;
             this.lab_Counter.Font = new System.Drawing.Font("新細明體", 25F);
-            this.lab_Counter.Location = new System.Drawing.Point(210, 204);
+            this.lab_Counter.Location = new System.Drawing.Point(182, 136);
             this.lab_Counter.Name = "lab_Counter";
             this.lab_Counter.Size = new System.Drawing.Size(31, 34);
             this.lab_Counter.TabIndex = 4;
@@ -91,7 +93,7 @@
             // 
             // bnt_Counter
             // 
-            this.bnt_Counter.Location = new System.Drawing.Point(93, 201);
+            this.bnt_Counter.Location = new System.Drawing.Point(21, 133);
             this.bnt_Counter.Name = "bnt_Counter";
             this.bnt_Counter.Size = new System.Drawing.Size(75, 37);
             this.bnt_Counter.TabIndex = 3;
@@ -101,7 +103,7 @@
             // 
             // btnBigger
             // 
-            this.btnBigger.Location = new System.Drawing.Point(413, 58);
+            this.btnBigger.Location = new System.Drawing.Point(312, 23);
             this.btnBigger.Name = "btnBigger";
             this.btnBigger.Size = new System.Drawing.Size(75, 23);
             this.btnBigger.TabIndex = 5;
@@ -137,7 +139,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(312, 160);
+            this.button2.Location = new System.Drawing.Point(312, 63);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
@@ -146,7 +148,7 @@
             // 
             // BtnCalculator
             // 
-            this.BtnCalculator.Location = new System.Drawing.Point(263, 30);
+            this.BtnCalculator.Location = new System.Drawing.Point(127, -2);
             this.BtnCalculator.Name = "BtnCalculator";
             this.BtnCalculator.Size = new System.Drawing.Size(124, 73);
             this.BtnCalculator.TabIndex = 10;
@@ -157,7 +159,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(245, 300);
+            this.label3.Location = new System.Drawing.Point(152, 266);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 12);
             this.label3.TabIndex = 15;
@@ -166,7 +168,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(195, 300);
+            this.label1.Location = new System.Drawing.Point(82, 266);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 14;
@@ -175,7 +177,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(91, 300);
+            this.label4.Location = new System.Drawing.Point(37, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 12);
             this.label4.TabIndex = 13;
@@ -207,11 +209,33 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(402, 36);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(124, 73);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "CheckBox";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(165, 355);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(99, 57);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Layout";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -256,6 +280,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
